@@ -1,18 +1,20 @@
+let backgroundImage;
 let brain;
 let question;
 let bttn;
 let answer = "Welcome to my world of sports";
 function preload() {
   brain = loadJSON("chatbotBrain.json");
+  backgroundImage = loadImage("mypicture.jpeg");
 }
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(576, 1024);
 
   question = createInput();
-  question.position(width / 3, 170);
+  question.position(400, 170);
 
   bttn = createButton("Send here!");
-  bttn.position(width / 3, 200);
+  bttn.position(400, 200);
   bttn.mousePressed(ask);
 }
 
@@ -35,6 +37,7 @@ function ask() {
 console.log(answer);
 function draw() {
   background(120);
-  fill(255, 255, 255);
-  text(answer, width / 3, 120, width / 2, height / 2);
+  fill(0);
+  image(backgroundImage, 0, 0);
+  text(answer, 10, 200, width / 2, height / 2);
 }
