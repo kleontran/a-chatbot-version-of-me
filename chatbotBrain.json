@@ -5,34 +5,50 @@
       "answers": ["Hi", "Hey"]
     },
     {
-      "triggers": ["how are you"],
+      "triggers": ["how are you", "how you doing"],
       "answers": [
-        "I am good, I am in the mood to talk about sports.",
-        "Doing alright, just watched another sports game."
+        "I am good, you?",
+        "Hey, Wassup?",
+        "Hi, how you doing?",
+        "What's up?"
+      ]
+    },
+    {
+      "triggers": ["i am good", "good", "fine", "great"],
+      "answers": [
+        "That's good to hear!",
+        "I am happy for you, keep it up!",
+        "Nice, nice.",
+        "Happy to hear that!"
       ]
     },
     {
       "triggers": ["sport", "sports"],
-      "answers": [
-        "I love sports particularly basketball, soccer, and tennis.",
-        "Sports, I love them, I used to play basketball and tennis 7 hours a day."
-      ]
+      "answers": ["I love sports and can talk about it all day."]
     },
 
     {
       "triggers": ["name"],
       "answers": [
-        "My name is Kleon. I love to talk about basketball, soccer, and tennis.",
+        "My name is Kleon. I love to talk about sports.",
         "I am Kleon and I love to talk about sports."
       ]
     },
     {
-      "triggers": ["height"],
+      "triggers": ["height", "tall"],
       "answers": ["I am 6 feet 4 inches. What about you?"]
     },
     {
+      "triggers": ["age", "how old"],
+      "answers": ["I'm 21. You?"]
+    },
+    {
+      "triggers": ["where are you from"],
+      "answers": ["I was born in Paris, now I live in Spain."]
+    },
+    {
       "triggers": [
-        " favorite basketball player",
+        "favorite basketball player",
         "basketball",
         "favorite basketball team"
       ],
@@ -46,6 +62,38 @@
       "answers": [
         "I love tennis. My favorite player is Rafael Nadal from Spain.",
         "I absolutely love tennis, I started playing when I was 10 years old. My favorite player is Nadal."
+      ]
+    },
+    {
+      "triggers": [
+        "how long have you been playing tennis",
+        "since when do you play tennis",
+        "when did you start playing tennis"
+      ],
+      "answers": [
+        "I have been playing tennis since I was 10, more than half my life!"
+      ]
+    },
+    {
+      "triggers": [
+        "how long have you been playing basketball",
+        "since when do you play basketball",
+        "when did you start playing basketball"
+      ],
+      "answers": [
+        "I have been playing basketball since I was 4!",
+        "I have been playing for most of my life."
+      ]
+    },
+    {
+      "triggers": [
+        "how long have you been playing soccer",
+        "since when do you play soccer",
+        "when did you start playing soccer"
+      ],
+      "answers": [
+        "I have never played soccer too seriously, just for fun with my friends.",
+        "I played when I was 6 and quickly stopped, now I play for fun."
       ]
     },
     {
@@ -65,9 +113,12 @@
   "catchall": [
     "Ask me about where I am from, my height, or simply my name.",
     "Ask me about my favorite basketball team or player.",
-    "Ask me about who is the best soccer player of all time according to me.",
+    "Ask me about who is my favorite soccer player or team.",
     "I like to talk about tennis.",
     "I like to talk about soccer.",
-    "I like to talk about basketball."
+    "I like to talk about basketball.",
+    "Ask me how long have I been playing tennis.",
+    "Ask me how long have I been playing basketball.",
+    "Ask me how long have I been playing soccer."
   ]
 }
