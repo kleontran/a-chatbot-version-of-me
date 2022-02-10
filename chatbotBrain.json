@@ -2,7 +2,7 @@
   "chatbot": [
     {
       "triggers": ["hi", "hey", "hello"],
-      "answers": ["Hi", "Hey"]
+      "answers": ["Hi, how you doing?", "Hey, how are you?"]
     },
     {
       "triggers": ["how are you", "how you doing"],
