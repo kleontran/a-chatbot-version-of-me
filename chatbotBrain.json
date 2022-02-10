@@ -12,7 +12,7 @@
       ]
     },
     {
-      "triggers": ["sports", "sport"],
+      "triggers": ["sport", "sports"],
       "answers": [
         "I love sports particularly basketball, soccer, and tennis.",
         "Sports, I love them, I used to play basketball and tennis 7 hours a day."

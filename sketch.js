@@ -1,22 +1,18 @@
-let backgroundImage;
 let brain;
 let question;
 let bttn;
 let answer = "Welcome to my world of sports";
 function preload() {
   brain = loadJSON("chatbotBrain.json");
-  backgroundImage = loadImage(
-    "https://images.neobookings.com/cms/rafanadalacademy.com/section/el-real-madrid-se-exhibe-en-el-rafa-nadal-museum-experience/pics/el-real-madrid-se-exhibe-en-el-rafa-nadal-museum-experience-6ze3jr7lxp.jpeg"
-  );
 }
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 800);
 
   question = createInput();
-  question.position((width * 2.8) / 5, 170);
+  question.position(width / 3, 170);
 
   bttn = createButton("Send here!");
-  bttn.position((width * 5) / 6, 195);
+  bttn.position(width / 3, 200);
   bttn.mousePressed(ask);
 }
 
@@ -39,6 +35,6 @@ function ask() {
 console.log(answer);
 function draw() {
   background(120);
-  fill(0);
-  text(answer, 30, 120, width / 2, height / 2);
+  fill(255, 255, 255);
+  text(answer, width / 3, 120, width / 2, height / 2);
 }
