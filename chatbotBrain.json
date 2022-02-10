@@ -1,0 +1,73 @@
+{
+  "chatbot": [
+    {
+      "triggers": ["hi", "hey", "hello"],
+      "answers": ["Hi", "Hey"]
+    },
+    {
+      "triggers": ["how are you"],
+      "answers": [
+        "I am good, I am in the mood to talk about sports.",
+        "Doing alright, just watched another sports game."
+      ]
+    },
+    {
+      "triggers": ["sports", "sport"],
+      "answers": [
+        "I love sports particularly basketball, soccer, and tennis.",
+        "Sports, I love them, I used to play basketball and tennis 7 hours a day."
+      ]
+    },
+
+    {
+      "triggers": ["name"],
+      "answers": [
+        "My name is Kleon. I love to talk about basketball, soccer, and tennis.",
+        "I am Kleon and I love to talk about sports."
+      ]
+    },
+    {
+      "triggers": ["height"],
+      "answers": ["I am 6 feet 4 inches. What about you?"]
+    },
+    {
+      "triggers": [
+        " favorite basketball player",
+        "basketball",
+        "favorite basketball team"
+      ],
+      "answers": [
+        "I love basketball. My favorite player is Stephen Curry. My favorite basketball team is Real Madrid of Spain.",
+        "I absolutely love basketball, I started playing when I was 4 years old. I love Real Madrid, and my favorite player is Curry."
+      ]
+    },
+    {
+      "triggers": [" favorite tennis player", "tennis"],
+      "answers": [
+        "I love tennis. My favorite player is Rafael Nadal from Spain.",
+        "I absolutely love tennis, I started playing when I was 10 years old. My favorite player is Nadal."
+      ]
+    },
+    {
+      "triggers": [
+        " favorite soccer player",
+        "soccer",
+        "favorite soccer team",
+        "best soccer player"
+      ],
+      "answers": [
+        "I love soccer. My favorite player is Cristiano Ronaldo. My favorite soccer team is Real Madrid of Spain.",
+        "I absolutely love soccer, I love to play it for fun. I love Real Madrid, and my favorite player is Cristiano Ronaldo."
+      ]
+    }
+  ],
+
+  "catchall": [
+    "Ask me about where I am from, my height, or simply my name.",
+    "Ask me about my favorite basketball team or player.",
+    "Ask me about who is the best soccer player of all time according to me.",
+    "I like to talk about tennis.",
+    "I like to talk about soccer.",
+    "I like to talk about basketball."
+  ]
+}
