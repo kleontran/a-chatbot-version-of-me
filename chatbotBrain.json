@@ -43,7 +43,7 @@
       "answers": ["I'm 21. You?"]
     },
     {
-      "triggers": ["where are you from"],
+      "triggers": ["where are you from", "born"],
       "answers": ["I was born in Paris, now I live in Spain."]
     },
     {
