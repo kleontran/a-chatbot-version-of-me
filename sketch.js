@@ -2,7 +2,7 @@ let video1;
 let video2, video3, video4, video5, video6, video7, video8, video9, video10;
 let bttn;
 let answer;
-let listening;
+let listening = false;
 let brain;
 let mic;
 let myRec = new p5.SpeechRec();
