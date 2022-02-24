@@ -43,11 +43,12 @@ function setup() {
   video10.hide();
 }
 function draw() {
-  if (listening == true) {
-    background(0);
-  } else {
-    background(255);
+  if (listening) {
+    micLevel = mic.getLevel();
+    circle(bttn.x + bttn.width / 2, bttn.y + 100, micLevel * 500);
   }
+
+  console.log(answer);
   if (answer === "1") {
     video1.show();
     video2.hide().stop();

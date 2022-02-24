@@ -9,27 +9,83 @@
       "answers": ["2"]
     },
     {
-      "triggers": ["fear"],
+      "triggers": [
+        "fear",
+        "worried",
+        "doubtful",
+        "nervous",
+        "anxious",
+        "terrified",
+        "panicked",
+        "horrified",
+        "desperate",
+        "confused",
+        "stressed"
+      ],
       "answers": ["3"]
     },
     {
-      "triggers": ["sad"],
+      "triggers": [
+        "sad",
+        "lonely",
+        "heartbroken",
+        "gloomy",
+        "disappointed",
+        "hopeless",
+        "grieved",
+        "lost"
+      ],
       "answers": ["4"]
     },
 
     {
-      "triggers": ["happy"],
+      "triggers": [
+        "happy",
+        "happiness",
+        "love",
+        "relief",
+        "contentment",
+        "joy",
+        "amusement",
+        "pride",
+        "excitement",
+        "peace",
+        "satisfaction"
+      ],
       "answers": ["5"]
     },
     {
-      "triggers": ["anger"],
+      "triggers": [
+        "angry",
+        "annoyed",
+        "frustrated",
+        "peeved",
+        "contrary",
+        "bitter",
+        "infuriated",
+        "irritated",
+        "mad",
+        "insulted"
+      ],
       "answers": ["8"]
     },
     {
-      "triggers": ["disgust"],
+      "triggers": [
+        "disgust",
+        "dislike",
+        "revulsion",
+        "loathing",
+        "disapproving",
+        "offended",
+        "horrified",
+        "uncomfortable",
+        "nauseated",
+        "disturbed",
+        "withdrawal"
+      ],
       "answers": ["10"]
     }
   ],
 
-  "catchall": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+  "catchall": ["1", "7", "9"]
 }
