@@ -2,123 +2,34 @@
   "chatbot": [
     {
       "triggers": ["hi", "hey", "hello"],
-      "answers": ["Hi, how you doing?", "Hey, how are you?"]
+      "answers": ["6"]
     },
     {
       "triggers": ["how are you", "how you doing"],
-      "answers": [
-        "I am good, you?",
-        "Hey, Wassup?",
-        "Hi, how you doing?",
-        "What's up?"
-      ]
+      "answers": ["2"]
     },
     {
-      "triggers": ["i am good", "good", "fine", "great"],
-      "answers": [
-        "That's good to hear!",
-        "I am happy for you, keep it up!",
-        "Nice, nice.",
-        "Happy to hear that!"
-      ]
+      "triggers": ["fear"],
+      "answers": ["3"]
     },
     {
-      "triggers": ["sport", "sports"],
-      "answers": ["I love sports and can talk about it all day."]
+      "triggers": ["sad"],
+      "answers": ["4"]
     },
 
     {
-      "triggers": ["name"],
-      "answers": [
-        "My name is Kleon. I love to talk about sports.",
-        "I am Kleon and I love to talk about sports."
-      ]
+      "triggers": ["happy"],
+      "answers": ["5"]
     },
     {
-      "triggers": ["height", "tall"],
-      "answers": ["I am 6 feet 4 inches. What about you?"]
+      "triggers": ["anger"],
+      "answers": ["8"]
     },
     {
-      "triggers": ["age", "how old"],
-      "answers": ["I'm 21. You?"]
-    },
-    {
-      "triggers": ["where are you from", "born"],
-      "answers": ["I was born in Paris, now I live in Spain."]
-    },
-    {
-      "triggers": [
-        "favorite basketball player",
-        "basketball",
-        "favorite basketball team"
-      ],
-      "answers": [
-        "I love basketball. My favorite player is Stephen Curry. My favorite basketball team is Real Madrid of Spain.",
-        "I absolutely love basketball, I started playing when I was 4 years old. I love Real Madrid, and my favorite player is Curry."
-      ]
-    },
-    {
-      "triggers": [" favorite tennis player", "tennis"],
-      "answers": [
-        "I love tennis. My favorite player is Rafael Nadal from Spain.",
-        "I absolutely love tennis, I started playing when I was 10 years old. My favorite player is Nadal."
-      ]
-    },
-    {
-      "triggers": [
-        "how long have you been playing tennis",
-        "since when do you play tennis",
-        "when did you start playing tennis"
-      ],
-      "answers": [
-        "I have been playing tennis since I was 10, more than half my life!"
-      ]
-    },
-    {
-      "triggers": [
-        "how long have you been playing basketball",
-        "since when do you play basketball",
-        "when did you start playing basketball"
-      ],
-      "answers": [
-        "I have been playing basketball since I was 4!",
-        "I have been playing for most of my life."
-      ]
-    },
-    {
-      "triggers": [
-        "how long have you been playing soccer",
-        "since when do you play soccer",
-        "when did you start playing soccer"
-      ],
-      "answers": [
-        "I have never played soccer too seriously, just for fun with my friends.",
-        "I played when I was 6 and quickly stopped, now I play for fun."
-      ]
-    },
-    {
-      "triggers": [
-        " favorite soccer player",
-        "soccer",
-        "favorite soccer team",
-        "best soccer player"
-      ],
-      "answers": [
-        "I love soccer. My favorite player is Cristiano Ronaldo. My favorite soccer team is Real Madrid of Spain.",
-        "I absolutely love soccer, I love to play it for fun. I love Real Madrid, and my favorite player is Cristiano Ronaldo."
-      ]
+      "triggers": ["disgust"],
+      "answers": ["10"]
     }
   ],
 
-  "catchall": [
-    "Ask me about where I am from, my height, or simply my name.",
-    "Ask me about my favorite basketball team or player.",
-    "Ask me about who is my favorite soccer player or team.",
-    "I like to talk about tennis.",
-    "I like to talk about soccer.",
-    "I like to talk about basketball.",
-    "Ask me how long have I been playing tennis.",
-    "Ask me how long have I been playing basketball.",
-    "Ask me how long have I been playing soccer."
-  ]
+  "catchall": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 }
