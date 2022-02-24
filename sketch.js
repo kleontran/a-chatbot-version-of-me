@@ -27,7 +27,7 @@ function preload() {
 function setup() {
   createCanvas(1200, 700);
   mic = new p5.AudioIn();
-  bttn = createButton("Press enter to start speaking");
+  bttn = createButton("Press here start speaking");
   bttn.size(200, 20);
   bttn.position(width / 2, height / 4);
   bttn.mousePressed(startListening);
@@ -43,9 +43,9 @@ function setup() {
   video10.hide();
 }
 function draw() {
-  if (listening) {
+  if (listening === true) {
     micLevel = mic.getLevel();
-    circle(bttn.x + bttn.width / 2, bttn.y + 100, micLevel * 500);
+    circle(width / 2, height / 3, micLevel * 500);
   }
 
   console.log(answer);
@@ -185,8 +185,9 @@ function draw() {
 function startListening() {
   mic.start();
   myRec.start();
-  listening = true;
+  listening === true;
   myRec.onResult = answerMe;
+  console.log("listening");
 }
 
 function answerMe() {
@@ -205,5 +206,8 @@ function answerMe() {
       }
     }
   }
-  listening = false;
+  listening === false;
 }
+
+//"catchall": ["1", "7", "9"]
+//"catchall":["1","2","3","4","5","6","7","8","9","10"]
