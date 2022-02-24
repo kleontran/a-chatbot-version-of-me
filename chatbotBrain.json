@@ -72,6 +72,7 @@
     {
       "triggers": [
         "disgust",
+        "disgusting",
         "dislike",
         "revulsion",
         "loathing",
